@@ -79,15 +79,3 @@ Reproducing the complete analysis requires access to the underlying datasets and
 ## Citation
 
 If you use these scripts in your research, please cite the associated publication once the manuscript has been published.
-
-**Manuscript:** *[Insert the final published article title]*
-
-**Authors:** [Insert author names]
-
-**Journal:** [Insert journal name]
-
-**DOI:** [Insert DOI when available]
-
-## Contact
-
-For questions regarding the scripts, methodology, or data availability, please contact the corresponding author of the associated publication.
