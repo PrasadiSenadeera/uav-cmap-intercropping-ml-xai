@@ -40,8 +40,6 @@ uav-cmap-intercropping-ml-xai/
 └── README.md
 ```
 
-*Note: The folder structure is illustrative. Folder contents should be adjusted to match the scripts included in the repository.*
-
 ## Data Analysis Workflow
 
 The analysis was performed separately for the two crop groups:
