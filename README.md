@@ -1,5 +1,5 @@
 # UAV-Based Monitoring of Cereal–Medicinal and Aromatic Plant Strip-Intercropping Systems Using Machine Learning and Explainable AI
-
+Prasadi Senadeera1, Christina Mühlenbrock2, Lukas Engelbach3, Michael Wachendorf1, Tábata Aline Bublitz2, Jayan Wijesingha1*  
 ## Overview
 
 This repository contains the R scripts used in the development and evaluation of a UAV-based remote sensing (RS), machine learning (ML), and explainable artificial intelligence (XAI) framework for monitoring cereal–medicinal and aromatic plant (C-MAP) strip-intercropping systems.
