@@ -56,7 +56,7 @@ The general workflow comprises:
 3. Development of RFR, SVR, and PLSR models for DB and LAI estimation.
 4. Evaluation and comparison of model performance.
 5. Application of XAI techniques to interpret model predictions and identify important variables.
-6. Generation of spatial dry biomass maps and preliminary LER analysis.
+6. Generation of spatial dry biomass maps.
 
 ## Data Availability
 
