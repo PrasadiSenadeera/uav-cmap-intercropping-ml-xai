@@ -26,7 +26,6 @@ uav-cmap-intercropping-ml-xai/
 │   └── Scripts for spectral and structural feature extraction
 │
 ├── 03_model_development/
-
 │   └── Scripts for cereal and medicinal and aromatic plant data analysis
 │
 ├── 04_model_evaluation/
