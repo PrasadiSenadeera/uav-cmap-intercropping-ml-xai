@@ -53,12 +53,12 @@ clean_data <- function(file_path, remove_crops, remove_partners, filter_na, rena
 spectral_file <- "data/wheat/spectral_and_situData_W.xlsx"
 spectral_rename <- c("Red_pixel_count" = "crop_pixelCount", "Red_area_m2" = "crop_area")
 spectral_df <- clean_data(spectral_file, c("COR", "CAR"), c("Caraway", "Coriander"), "DM_Total(g)", spectral_rename, TRUE, TRUE, "spectral")
-write.xlsx( spectral_df,"Z:/transfer/projects/TRIO/R/2025/Process2025/results/ZEcut_stat/2024/spectral_2024_ca.xlsx",overwrite = TRUE)
+
 
 height_file <- "data/wheat/height_and_situData_W.xlsx"
 height_rename <- c( "H_area_m2" = "H_area", "H_pixel_count" = "pixelCount")
 height_df <- clean_data(height_file, c("COR", "CAR"), c("Caraway", "Coriander"), "Mean_height", height_rename, FALSE, FALSE, "height")
-write.xlsx( spectral_df,"Z:/transfer/projects/TRIO/R/2025/Process2025/results/ZEcut_stat/2024/height_2024_ca.xlsx",overwrite = TRUE)
+
 
 # Plot biomass distribution
 ggplot(spectral_df, aes(x = Site, y = `DM_PerArea`, fill = Growth_stage)) + geom_boxplot()

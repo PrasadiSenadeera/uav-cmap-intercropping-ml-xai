@@ -60,11 +60,28 @@ The general workflow comprises:
 
 ## Data Availability
 
-The datasets used in this study are not publicly available in this repository. The data supporting the findings of this study are available from the corresponding author upon reasonable request, subject to applicable data-sharing conditions.
+The raw UAV imagery used in this study is not publicly available in this repository. However, the processed datasets extracted from the UAV imagery and integrated with in-situ field measurements for modelling wheat and medicinal plants are provided in the `data/` folder.
+
+### Data Description
+
+The `data/` folder contains the following datasets:
+
+- **`height_and_situData_W`**: Integrated canopy height and in-situ field measurement data for wheat.
+- **`spectral_and_situData_W`**: Integrated spectral and in-situ field measurement data for wheat.
+- **`spectral_and_situData_MP`**: Integrated spectral and in-situ field measurement data for medicinal plants.
+- **`height_and_situData_MP`**: Integrated canopy height and in-situ field measurement data for medicinal plants.
+
+### Prediction Data
+
+The processed datasets used for prediction are available in their respective prediction folders.
+
+### Data Reuse and Attribution
+
+Reuse of the provided datasets is permitted with appropriate attribution to the original authors. Users are requested to cite the associated research publication, acknowledge the original data source, and clearly indicate any modifications made to the data. The UAV data supporting the findings of this study are also available from the corresponding author upon reasonable request, subject to applicable data-sharing conditions.
 
 ## Software and Dependencies
 
-The analyses were performed in R. The required packages depend on the individual scripts and may include packages for data processing, spatial analysis, machine learning, model interpretation, and visualization.
+The analyses were performed in R and M icrosoft excel. The required packages depend on the individual scripts and may include packages for data processing, spatial analysis, machine learning, model interpretation, and visualization.
 
 Users should consult the relevant scripts for package dependencies and configuration details.
 
