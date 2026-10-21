@@ -19,23 +19,34 @@ Explainable AI techniques were applied to investigate the contribution of spectr
 ```text
 uav-cmap-intercropping-ml-xai/
 │
+├── 00_data/
+│   ├── Processed datasets for modelling
+│   │
+│   └── prediction/
+│       └── Processed datasets used for prediction
+│
 ├── 01_data_preprocessing/
 │   └── Scripts for preparing input data
 │
 ├── 02_feature_extraction/
-│   └── Scripts for spectral and structural feature extraction
+│   └── Scripts for spectral and structural
+│       feature extraction
 │
 ├── 03_model_development/
-│   └── Scripts for cereal and medicinal and aromatic plant data analysis
+│   └── Scripts for cereal and medicinal and
+│       aromatic plant data analysis
 │
 ├── 04_model_evaluation/
-│   └── Scripts for model validation and performance comparison
+│   └── Scripts for model validation and
+│       performance comparison
 │
 ├── 05_xai_analysis/
-│   └── Scripts for explainable AI and feature importance analysis
+│   └── Scripts for explainable AI and
+│       feature importance analysis
 │
 ├── 06_spatial_mapping/
-│   └── Scripts for biomass mapping and spatial analysis
+│   └── Scripts for biomass mapping and
+│       spatial analysis
 │
 └── README.md
 ```
